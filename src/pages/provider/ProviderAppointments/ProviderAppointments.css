@@ -1,0 +1,27 @@
+.prov-apt-service {
+  font-size: var(--font-md);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.prov-apt-details {
+  font-size: var(--font-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-sm);
+}
+
+.prov-apt-notes {
+  font-size: var(--font-xs);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  background-color: var(--color-background);
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.prov-apt-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+}

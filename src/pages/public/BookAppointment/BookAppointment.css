@@ -1,0 +1,66 @@
+.booking-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin: var(--spacing-lg) 0;
+}
+
+.booking-step {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-sm);
+  font-weight: 600;
+  background-color: var(--color-border);
+  color: var(--color-text-secondary);
+}
+
+.booking-step.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.booking-step-line {
+  width: 40px;
+  height: 2px;
+  background-color: var(--color-border);
+}
+
+.booking-title {
+  font-size: var(--font-lg);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.booking-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.booking-summary-row:last-child {
+  border-bottom: none;
+}
+
+.booking-summary-label {
+  font-size: var(--font-sm);
+  color: var(--color-text-secondary);
+}
+
+.booking-summary-value {
+  font-size: var(--font-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.booking-price {
+  color: var(--color-primary);
+  font-size: var(--font-md);
+}

@@ -1,0 +1,20 @@
+.card {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.card-clickable {
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card-clickable:active {
+  transform: scale(0.98);
+}
+
+.card-clickable:hover {
+  box-shadow: var(--shadow-md);
+}

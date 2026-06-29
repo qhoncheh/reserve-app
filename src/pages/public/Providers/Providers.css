@@ -1,0 +1,29 @@
+.provider-name {
+  font-size: var(--font-lg);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.provider-rating {
+  font-size: var(--font-sm);
+  color: var(--color-warning);
+  margin-top: 2px;
+}
+
+.provider-bio {
+  font-size: var(--font-sm);
+  color: var(--color-text-secondary);
+  margin-top: var(--spacing-sm);
+  line-height: 1.6;
+}
+
+.provider-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+}
+
+.provider-card-header {
+  margin-bottom: var(--spacing-xs);
+}

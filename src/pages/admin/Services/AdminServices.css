@@ -1,0 +1,28 @@
+.admin-svc-icon {
+  font-size: 36px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background);
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.admin-svc-name {
+  font-size: var(--font-md);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.admin-svc-desc {
+  font-size: var(--font-xs);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.admin-svc-meta {
+  font-size: var(--font-xs);
+  color: var(--color-text-secondary);
+}

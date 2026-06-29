@@ -1,0 +1,91 @@
+.provider-detail-header {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+}
+
+.provider-detail-name {
+  font-size: var(--font-xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-top: var(--spacing-md);
+}
+
+.provider-detail-rating {
+  font-size: var(--font-md);
+  color: var(--color-warning);
+  margin-top: var(--spacing-xs);
+}
+
+.provider-detail-bio {
+  font-size: var(--font-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+}
+
+.provider-detail-services {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.provider-service-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.provider-service-item:last-child {
+  border-bottom: none;
+}
+
+.provider-service-name {
+  font-size: var(--font-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.provider-service-price {
+  font-size: var(--font-xs);
+  color: var(--color-primary);
+}
+
+.provider-service-duration {
+  font-size: var(--font-xs);
+  color: var(--color-text-secondary);
+}
+
+.provider-hours-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.provider-hour-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-background);
+}
+
+.provider-hour-row.off {
+  opacity: 0.5;
+}
+
+.provider-hour-day {
+  font-size: var(--font-sm);
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.provider-hour-time {
+  font-size: var(--font-sm);
+  color: var(--color-text-secondary);
+}
+
+.provider-detail-cta {
+  padding: var(--spacing-md) 0;
+}

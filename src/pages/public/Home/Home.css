@@ -1,0 +1,113 @@
+.home-hero {
+  padding: var(--spacing-lg) 0;
+}
+
+.home-hero-title {
+  font-size: var(--font-xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.home-hero-subtitle {
+  font-size: var(--font-sm);
+  color: var(--color-text-secondary);
+}
+
+.home-stats {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.home-stat-card {
+  flex: 1;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-md);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.home-stat-number {
+  display: block;
+  font-size: var(--font-xl);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.home-stat-label {
+  font-size: var(--font-xs);
+  color: var(--color-text-secondary);
+}
+
+.home-services-scroll {
+  display: flex;
+  gap: var(--spacing-sm);
+  overflow-x: auto;
+  padding-bottom: var(--spacing-sm);
+  scrollbar-width: none;
+}
+
+.home-services-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.home-service-card {
+  min-width: 140px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.home-service-icon {
+  font-size: 32px;
+  margin-bottom: var(--spacing-xs);
+  display: block;
+}
+
+.home-service-name {
+  font-size: var(--font-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.home-service-price {
+  font-size: var(--font-xs);
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.home-provider-name {
+  font-size: var(--font-md);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.home-provider-rating {
+  font-size: var(--font-xs);
+  color: var(--color-warning);
+  margin-top: 2px;
+}
+
+.home-cta {
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: white;
+}
+
+.home-cta-text {
+  font-size: var(--font-md);
+  margin-bottom: var(--spacing-md);
+  opacity: 0.9;
+}
+
+.home-cta .btn {
+  background-color: white;
+  color: var(--color-primary);
+}
+
+.home-cta .btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}

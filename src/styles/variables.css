@@ -1,0 +1,46 @@
+:root {
+  --color-primary: #58B368;
+  --color-primary-dark: #3E8F4D;
+  --color-primary-light: #7FCC8D;
+  --color-background: #F5F7F5;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #222222;
+  --color-text-secondary: #666666;
+  --color-border: #EAEAEA;
+  --color-success: #58B368;
+  --color-danger: #FF5B5B;
+  --color-warning: #FFB648;
+  --color-white: #FFFFFF;
+
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 40px;
+  --radius-full: 999px;
+
+  --shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.08);
+
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 28px;
+  --font-xxl: 36px;
+
+  --transition: 0.3s ease;
+
+  --app-width: 390px;
+  --bottom-nav-height: 64px;
+  --header-height: 56px;
+  --input-height: 52px;
+  --button-height: 56px;
+  --icon-size: 44px;
+}

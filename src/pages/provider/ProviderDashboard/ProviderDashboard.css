@@ -1,0 +1,18 @@
+.provider-apt-service {
+  font-size: var(--font-md);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.provider-apt-user {
+  font-size: var(--font-sm);
+  color: var(--color-text-secondary);
+  margin-top: 4px;
+}
+
+.provider-apt-time {
+  font-size: var(--font-sm);
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-top: 2px;
+}
