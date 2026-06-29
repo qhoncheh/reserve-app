@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuthStore } from '../../../stores/authStore.js'
-import { useAppointmentStore } from '../../../stores/appointmentStore.js'  
+import { useAppointmentStore } from '../../../stores/appointmentStore.js'
 import { useUiStore } from '../../../stores/uiStore.js'
 import { Card } from '../../../components/Card/Card.jsx'
 import { Button } from '../../../components/Button/Button.jsx'
